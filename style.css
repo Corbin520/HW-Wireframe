@@ -24,7 +24,8 @@ nav {
 }
 
 aside {
-    float: left;
+    float: right;
+    overflow: hidden;
     background: white;
     padding: 100px;
     font-size: 25px;
@@ -40,13 +41,14 @@ section {
     width: 495px;
     float: left;
     margin-bottom: 15px;
+    clear: both;
 }
 
 article {
     background: #777;
     color: #ebebeb;
     border-style: solid; /* I gave this my best shot to figure out how to create that gap between the footer */
-    
+    overflow: auto;
 }
 
 p, h3 {
